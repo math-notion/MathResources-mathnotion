@@ -1,23 +1,23 @@
 # MathResources-mathnotion
 A comprehensive collection of mathematical concepts, tutorials, and tools for students, educators, and enthusiasts.
-# MathResources-mathnotion
+# MathResources-MathNotion
 
-Welcome to the MathResources-mathnotion repository! This is a curated collection of mathematical resources, tutorials, tools, and more. Whether you're a student, educator, or simply a math enthusiast, you're bound to find something of interest here.
+Welcome to MathResources-MathNotion! A repository built as a supplement to the wealth of knowledge on [MathNotion](https://www.mathnotion.com). Dive into an assortment of mathematical tutorials, tools, challenges, and more.
 
 ## Contents:
 
 - [Documentation](./docs)
 - [Tutorials](./tutorials)
-- [Tools & Utilities](./tools)
-- [Datasets]([./www.mathnotion.com/shop/))
-- [Challenges](./challenges)
-- [Community Resources](./community)
+- [Math Tools & Utilities](./tools)
+- [Datasets for Analysis](./datasets)
+- [Math Challenges](./challenges)
+- [Community & Networking](./community)
 
-## Contributions:
+## How to Contribute:
 
-We welcome contributions from the community! Whether it's a new tutorial, a correction, a tool, or simply feedback, feel free to raise an issue or submit a pull request.
+We're open to community contributions! Be it a tutorial, a new math tool, feedback, or error spotting, please raise an issue or send in a pull request.
 
 ## License:
 
-This repository is licensed under the MIT License - see [LICENSE.md](./LICENSE.md) for details.
+This material is under the MIT License - see the [LICENSE.md](./LICENSE.md) file for more details.
 
