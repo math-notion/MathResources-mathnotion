@@ -9,7 +9,7 @@ Welcome to the MathResources-mathnotion repository! This is a curated collection
 - [Documentation](./docs)
 - [Tutorials](./tutorials)
 - [Tools & Utilities](./tools)
-- [Datasets]([./datasets](https://www.mathnotion.com/shop/))
+- [Datasets]([./www.mathnotion.com/shop/))
 - [Challenges](./challenges)
 - [Community Resources](./community)
 
