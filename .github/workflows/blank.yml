@@ -1,0 +1,28 @@
+name: Weekly Blog Publisher
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Every Monday 13:00 UTC
+  workflow_dispatch: {}     # Allow manual runs
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run generator
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WP_WEBHOOK_URL: ${{ secrets.WP_WEBHOOK_URL }}
+          BRAND_VOICE: ${{ vars.BRAND_VOICE }} # repo/org var (optional)
+          TOPIC_LIST: ${{ vars.TOPIC_LIST }}   # e.g. "wordpress seo, local seo, content calendar"
+          MIN_WORDS: "900"
+          POST_STATUS: "publish"               # or "draft"
+        run: node scripts/generate_and_post.js
